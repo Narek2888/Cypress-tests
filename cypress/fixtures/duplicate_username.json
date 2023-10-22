@@ -1,0 +1,16 @@
+{
+    "success": false,
+    "message": {
+        "key": "duplicate_document",
+        "params": [
+            "username",
+            {
+                "username": "ngstaging1234",
+                "skinId": 572221
+            }
+        ]
+    },
+    "requestTrackId": "5eb4217d-4968-4d84-a0d5-70a2edbf2594",
+    "error": "{\"message\":\"Account with username ngstaging1234 already exists!\"}",
+    "timeElapsed": 13
+}

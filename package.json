@@ -1,0 +1,16 @@
+{
+  "name": "reg-mock-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.2",
+    "cypress-plugin-tab": "^1.0.5"
+  }
+}
