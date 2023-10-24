@@ -1,15 +1,14 @@
-const { it } = require("mocha");
 require('cypress-plugin-tab');
 
 describe("Mocking registration errors cases", () => {
     beforeEach("Filling the reg form", () => {
         cy.visit("https://staging-papigames.draft10.com");
-        cy.intercept({resourceType: /xhr|fetch/}, {log: false})
+        cy.intercept({ resourceType: /xhr|fetch/ }, { log: false })
         cy.get("button.registerButton span").click()
     })
 
     it("Checking the CPF error in case of missing cpf", () => {
-        
+
         const no_cpf_response = {
             "success": false,
             "message": {
@@ -28,7 +27,7 @@ describe("Mocking registration errors cases", () => {
     })
 
     it("Checking the CPF error in case of wrong cpf", () => {
-        
+
         const wrong_cpf_response = {
             "success": false,
             "message": {
@@ -52,7 +51,7 @@ describe("Mocking registration errors cases", () => {
     })
 
     it("Checking the CPF error in case of wrong skinId", () => {
-        
+
         const wrong_skinId_response = {
             "success": false,
             "message": {
@@ -72,7 +71,7 @@ describe("Mocking registration errors cases", () => {
     })
 
     // it.only("Checking the username error in case of duplicate username", () => {
-        
+
     //     const duplicate_username_response = {
     //         "success": true,
     //         "result": {
@@ -86,14 +85,14 @@ describe("Mocking registration errors cases", () => {
     //     cy.get("button.primaryButton span").click()
 
     //     cy.get("input[name='username']").type("ng2889")
-    //     cy.intercept("GET", "https://stagingapi.draft10.com/api_v2/checkUsername?skinId=572221&username=ng2888&field=username", duplicate_username_response).as("getresponse")
+    //     cy.intercept("GET", "**/api_v2/checkUsername*", duplicate_username_response).as("getresponse")
     //     cy.wait("@getresponse")
     //     cy.tab()
 
     // })
 
     it("Checking the error in case of duplicate username", () => {
-        
+
         // const duplicate_username_response = {
         //     "success": false,
         //     "message": {
@@ -111,22 +110,22 @@ describe("Mocking registration errors cases", () => {
         //     "timeElapsed": 13
         // }
 
-        cy.intercept("POST", "**/api_v2/playerRegistration", {fixture: "duplicate_username.json"})
+        cy.intercept("POST", "**/api_v2/playerRegistration", { fixture: "duplicate_username.json" })
 
         cy.get("input[name='cpf']").type("12984565875")
         cy.get("button.primaryButton span").click()
         cy.get("input[name='username']")
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("1234").tab()
-        .type("ng@2889.com")
-        cy.get("[type='checkbox']").check({force:true})
-        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, {force: true})
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("1234").tab()
+            .type("ng@2889.com")
+        cy.get("[type='checkbox']").check({ force: true })
+        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, { force: true })
     })
 
     it("Checking the error in case of missing skinId", () => {
-        
+
         const no_skinId_response = {
             "success": false,
             "message": {
@@ -144,17 +143,17 @@ describe("Mocking registration errors cases", () => {
         cy.get("input[name='cpf']").type("12984565875")
         cy.get("button.primaryButton span").click()
         cy.get("input[name='username']")
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("1234").tab()
-        .type("ng@2889.com")
-        cy.get("[type='checkbox']").check({force:true})
-        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, {force: true})
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("1234").tab()
+            .type("ng@2889.com")
+        cy.get("[type='checkbox']").check({ force: true })
+        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, { force: true })
     })
 
     it("Checking the error in case of missing username", () => {
-        
+
         const no_username_response = {
             "success": false,
             "message": {
@@ -172,17 +171,17 @@ describe("Mocking registration errors cases", () => {
         cy.get("input[name='cpf']").type("12984565875")
         cy.get("button.primaryButton span").click()
         cy.get("input[name='username']")
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("1234").tab()
-        .type("ng@2889.com")
-        cy.get("[type='checkbox']").check({force:true})
-        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, {force: true})
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("1234").tab()
+            .type("ng@2889.com")
+        cy.get("[type='checkbox']").check({ force: true })
+        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, { force: true })
     })
 
     it("Checking the error in case of missing password", () => {
-        
+
         var no_password_response = {
             "success": false,
             "message": {
@@ -200,27 +199,30 @@ describe("Mocking registration errors cases", () => {
         cy.get("input[name='cpf']").type("12984565875")
         cy.get("button.primaryButton span").click()
         cy.get("input[name='username']")
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("1234").tab()
-        .type("ng@2889.com")
-        cy.get("[type='checkbox']").check({force:true})
-        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, {force: true})
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("1234").tab()
+            .type("ng@2889.com")
+        cy.get("[type='checkbox']").check({ force: true })
+        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, { force: true })
     })
 
-    it.only("Checking the error in case of missing phone number", () => {
-        
+    it("Checking the error in case of missing phone number", () => {
+
         var no_phone_response = {
-            "success": false,
-            "message": {
-                "key": "missing_parameter",
-                "params": [
-                    "phoneNumber"
-                ]
-            },
-            "requestTrackId": "6eccd2b4-c997-470a-9747-0f942c9aee92",
-            "timeElapsed": 17
+            "statusCode": 400,
+            "body": {
+                "success": false,
+                "message": {
+                    "key": "missing_parameter",
+                    "params": [
+                        "phoneNumber"
+                    ]
+                },
+                "requestTrackId": "6eccd2b4-c997-470a-9747-0f942c9aee92",
+                "timeElapsed": 17
+            }
         }
 
         cy.intercept("POST", "**/api_v2/playerRegistration", no_phone_response)
@@ -228,18 +230,18 @@ describe("Mocking registration errors cases", () => {
         cy.get("input[name='cpf']").type("12984565875")
         cy.get("button.primaryButton span").click()
         cy.get("input[name='username']")
-        .type("ng2989").tab()
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("1234").tab()
-        .type("ng@2889.com")
-        cy.get("[type='checkbox']").check({force:true})
-        
-        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, {force: true})
+            .type("ng2989").tab()
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("1234").tab()
+            .type("ng@2889.com")
+        cy.get("[type='checkbox']").check({ force: true })
+
+        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, { force: true })
     })
 
     it("Checking the error in case of duplicate email", () => {
-        
+
         var duplicate_email_response = {
             "success": false,
             "message": {
@@ -261,14 +263,15 @@ describe("Mocking registration errors cases", () => {
         cy.get("input[name='cpf']").type("12984565875")
         cy.get("button.primaryButton span").click()
         cy.get("input[name='username']")
-        .type("ng2989").tab()
-        .type("ng2889").tab()
-        .type("ng2889").tab()
-        .type("1234").tab()
-        .type("ng@2889.com")
-        cy.get("[type='checkbox']").check({force:true})
-        
+            .type("ng2989").tab()
+            .type("ng2889").tab()
+            .type("ng2889").tab()
+            .type("1234").tab()
+            .type("ng@2889.com")
+        cy.get("[type='checkbox']").check({ force: true })
+
         // cy.wait("@dup_email_response")
-        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, {force: true})
+        cy.get("[id^=registration-submit-btn]").click({ multiple: true }, { force: true })
     })
+
 })

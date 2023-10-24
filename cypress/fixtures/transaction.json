@@ -1,0 +1,585 @@
+{
+    "success": true,
+    "result": {
+        "count": 8,
+        "totalCount": 11,
+        "offset": 0,
+        "movements": [
+            {
+                "_id": "6523f657ede8561b30217f79",
+                "subType": "deposit",
+                "gameSessionId": null,
+                "tourSessionId": null,
+                "counterpartId": null,
+                "walletsBefore": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "walletsAfter": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "status": "canceled",
+                "parents": [
+                    192347,
+                    192344,
+                    0
+                ],
+                "type": "balanceTransfer",
+                "transactionId": "CashipPix-8072891696855639321",
+                "source": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "destination": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "productId": 0,
+                "amount": 50,
+                "currency": "BRL",
+                "dateCreated": "2023-10-09T12:47:19.321Z",
+                "paymentMethod": {
+                    "name": "Pix"
+                },
+                "dateUpdated": "2023-10-09T12:47:20.042Z",
+                "details": "Transaction canceled by starspay side"
+            },
+            {
+                "_id": "6520051c4538a878412d9ec3",
+                "subType": "smarticoBonus",
+                "gameSessionId": null,
+                "tourSessionId": null,
+                "counterpartId": null,
+                "walletsBefore": [
+                    {
+                        "balance": 0,
+                        "currency": "FPP",
+                        "name": "WFPP100",
+                        "priority": 100
+                    }
+                ],
+                "walletsAfter": [
+                    {
+                        "balance": 50,
+                        "currency": "FPP",
+                        "name": "WFPP100",
+                        "priority": 100
+                    }
+                ],
+                "status": "completed",
+                "parents": [
+                    192347,
+                    192344,
+                    0
+                ],
+                "type": "balanceTransfer",
+                "transactionId": "sm_4041931",
+                "source": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "destination": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "amount": 50,
+                "currency": "FPP",
+                "productId": 0,
+                "details": "Bonus provided from Smartico side for bonus 10",
+                "dateCreated": "2023-10-06T13:01:16.024Z",
+                "dateUpdated": "2023-10-06T13:01:16.024Z"
+            },
+            {
+                "_id": "651e92b5ac3e963ef4bfd78b",
+                "subType": "deposit",
+                "gameSessionId": null,
+                "tourSessionId": null,
+                "counterpartId": null,
+                "walletsBefore": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "walletsAfter": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "status": "canceled",
+                "parents": [
+                    192347,
+                    192344,
+                    0
+                ],
+                "type": "balanceTransfer",
+                "transactionId": "CashipPix-8072891696502453496",
+                "source": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "destination": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "productId": 0,
+                "amount": 10,
+                "currency": "BRL",
+                "dateCreated": "2023-10-05T10:40:53.528Z",
+                "paymentMethod": {
+                    "name": "Pix"
+                },
+                "dateUpdated": "2023-10-05T10:40:53.978Z",
+                "details": "Transaction canceled by starspay side"
+            },
+            {
+                "_id": "651b91de8f9d7243a1ae3b61",
+                "subType": "tourbuyout",
+                "gameSessionId": null,
+                "tourSessionId": "CTS_807289_1696242865538_7707",
+                "counterpartId": 7707,
+                "walletsBefore": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "walletsAfter": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "status": "completed",
+                "parents": [
+                    192347,
+                    192344,
+                    0
+                ],
+                "transactionId": "CTW807289_7707",
+                "source": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "amount": 0,
+                "type": "buyout",
+                "currency": "BRL",
+                "productId": 40,
+                "dateUpdated": "2023-10-03T04:00:30.147Z",
+                "details": "GoS: Spider Arena Daily R$ 7,500 GTD(7707) - buyout.",
+                "seamless": false,
+                "extraInfo": {
+                    "tournamentName": "Spider Arena Daily R$ 7,500 GTD",
+                    "score": 4300,
+                    "tournamentId": 7707,
+                    "playerPosition": 1196,
+                    "username": "mos777",
+                    "spins": 40,
+                    "registrationDate": "2023-10-02T10:34:25.580Z",
+                    "lastActionDate": "2023-10-02T10:36:09.429Z",
+                    "reason": "tournamentFinished"
+                },
+                "dateCreated": "2023-10-03T04:00:30.147Z",
+                "tournamentId": 7707,
+                "tournamentName": "Spider Arena Daily R$ 7,500 GTD"
+            },
+            {
+                "_id": "651a9cb18f9d7243a19beaf2",
+                "subType": "tourbuyin",
+                "gameSessionId": null,
+                "tourSessionId": "CTS_807289_1696242865538_7707",
+                "counterpartId": 7707,
+                "walletsBefore": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "walletsAfter": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "status": "completed",
+                "parents": [
+                    192347,
+                    192344,
+                    0
+                ],
+                "transactionId": "CT807289_7707_1696242865538",
+                "source": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "amount": 0,
+                "type": "buyin",
+                "currency": "BRL",
+                "productId": 40,
+                "dateUpdated": "2023-10-02T10:34:25.556Z",
+                "details": "GoS: Spider Arena Daily R$ 7,500 GTD(7707) - buyin.",
+                "seamless": false,
+                "extraInfo": {
+                    "tournamentName": "Spider Arena Daily R$ 7,500 GTD",
+                    "tournamentId": 7707,
+                    "playerPosition": 0,
+                    "username": "mos777",
+                    "reason": "register"
+                },
+                "dateCreated": "2023-10-02T10:34:25.567Z",
+                "tournamentId": 7707,
+                "tournamentName": "Spider Arena Daily R$ 7,500 GTD"
+            },
+            {
+                "_id": "65179d312b2a2d4373f58896",
+                "subType": "tourbuyout",
+                "gameSessionId": null,
+                "tourSessionId": "CTS_807289_1695993902436_7779",
+                "counterpartId": 7779,
+                "walletsBefore": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "walletsAfter": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "status": "completed",
+                "parents": [
+                    192347,
+                    192344,
+                    0
+                ],
+                "transactionId": "CTW807289_7779",
+                "source": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "amount": 0,
+                "type": "buyout",
+                "currency": "BRL",
+                "productId": 40,
+                "dateUpdated": "2023-09-30T03:59:45.443Z",
+                "details": "GoS: 4 Ticket p/ Ultimate Fight(7779) - buyout.",
+                "seamless": false,
+                "extraInfo": {
+                    "tournamentName": "4 Ticket p/ Ultimate Fight",
+                    "tournamentId": 7779,
+                    "score": 1860,
+                    "playerPosition": 592,
+                    "username": "mos777",
+                    "spins": 40,
+                    "registrationDate": "2023-09-29T13:25:02.478Z",
+                    "lastActionDate": "2023-09-29T13:28:29.537Z",
+                    "reason": "tournamentFinished"
+                },
+                "dateCreated": "2023-09-30T03:59:45.443Z",
+                "tournamentId": 7779,
+                "tournamentName": "4 Ticket p/ Ultimate Fight"
+            },
+            {
+                "_id": "6516d02e12cd2f439a13ec3a",
+                "subType": "tourbuyin",
+                "gameSessionId": null,
+                "tourSessionId": "CTS_807289_1695993902436_7779",
+                "counterpartId": 7779,
+                "walletsBefore": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "walletsAfter": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "status": "completed",
+                "parents": [
+                    192347,
+                    192344,
+                    0
+                ],
+                "transactionId": "CT807289_7779_1695993902436",
+                "source": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "amount": 0,
+                "type": "buyin",
+                "currency": "BRL",
+                "productId": 40,
+                "dateUpdated": "2023-09-29T13:25:02.460Z",
+                "details": "GoS: 4 Ticket p/ Ultimate Fight(7779) - buyin.",
+                "seamless": false,
+                "extraInfo": {
+                    "tournamentName": "4 Ticket p/ Ultimate Fight",
+                    "tournamentId": 7779,
+                    "playerPosition": 0,
+                    "username": "mos777",
+                    "reason": "register"
+                },
+                "dateCreated": "2023-09-29T13:25:02.461Z",
+                "tournamentId": 7779,
+                "tournamentName": "4 Ticket p/ Ultimate Fight"
+            },
+            {
+                "_id": "65164c79e7b815091040473d",
+                "subType": "tourbuyout",
+                "gameSessionId": null,
+                "tourSessionId": "CTS_807289_1695892175061_7639",
+                "counterpartId": 7639,
+                "walletsBefore": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "walletsAfter": [
+                    {
+                        "balance": 0,
+                        "currency": "BRL",
+                        "name": "WBRL0",
+                        "priority": 0
+                    }
+                ],
+                "status": "completed",
+                "parents": [
+                    192347,
+                    192344,
+                    0
+                ],
+                "transactionId": "CTW807289_7639",
+                "source": {
+                    "_id": 807289,
+                    "username": "mos777",
+                    "personalInfo": {
+                        "phoneNumber": "6454",
+                        "email": "mmm@maiinator.com",
+                        "gender": "m",
+                        "birthDate": "2023-09-28T08:28:47.901Z",
+                        "address": null,
+                        "city": null,
+                        "zipCode": null,
+                        "firstname": "test",
+                        "lastname": "test",
+                        "nationalId": "xawx1vhWSWxAoT",
+                        "referralId": 807291,
+                        "referralUrl": "http://rcv5.papigames.com/?affiliateId=807291"
+                    },
+                    "typeId": 1
+                },
+                "amount": 0,
+                "type": "buyout",
+                "currency": "BRL",
+                "productId": 40,
+                "dateUpdated": "2023-09-29T04:03:05.467Z",
+                "details": "GoS: Spider Arena Daily R$ 7,500 GTD(7639) - buyout.",
+                "seamless": false,
+                "extraInfo": {
+                    "tournamentName": "Spider Arena Daily R$ 7,500 GTD",
+                    "score": 3240,
+                    "tournamentId": 7639,
+                    "playerPosition": 3449,
+                    "username": "mos777",
+                    "spins": 40,
+                    "registrationDate": "2023-09-28T09:09:35.097Z",
+                    "lastActionDate": "2023-09-28T09:14:01.300Z",
+                    "reason": "tournamentFinished"
+                },
+                "dateCreated": "2023-09-29T04:03:05.467Z",
+                "tournamentId": 7639,
+                "tournamentName": "Spider Arena Daily R$ 7,500 GTD"
+            }
+        ],
+        "limit": 8
+    },
+    "timeElapsed": 22
+}
